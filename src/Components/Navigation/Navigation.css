@@ -1,0 +1,55 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 5rem;
+}
+
+.nav.Nav-container {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.Navlinks a {
+	padding: 0 17px;
+	text-decoration: none;
+}
+
+.Navlinks a:hover,
+a img.siteLogo:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.Navlinks a:hover {
+	background: lightblue;
+	transition: 1s;
+}
+
+@media (max-width: 640px){
+	header {
+		flex-direction: column;
+		height: 10rem;
+	}
+
+	.Navlinks {
+		display: flex;
+    flex-direction: column;
+    padding: 0;
+	}
+	 
+}
+	 
+@media (max-width: 768px){
+	
+}
+	 
+@media (min-width: 1024px){
+	
+	
+}
+	 
+@media (min-width: 1200px){
+	
+	
+}
