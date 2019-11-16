@@ -13,4 +13,9 @@ body {
 	font-size: x-large;
 }
 
+.Page-container {
+	max-width: 100%;
+	margin: 0 10%;
+}
+
 
